@@ -25,8 +25,8 @@ let package = Package(
             name: "AEP_SDK",
             dependencies: [
                 .target(name: "AEP_SDK", condition: .when(platforms: [.iOS])),
-                .product(name: "PusherSwift", package: "pusher-websocket-swift"),
-                .product(name: "Stripe", package: "stripe-ios-spm")
+                .product(name: "AEPCore", package: "aepsdk-core-ios"),
+                .product(name: "AEPAssurance", package: "aepsdk-assurance-ios")
             ]
         )
     ]
