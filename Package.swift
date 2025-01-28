@@ -15,7 +15,10 @@ let package = Package(
         // Add an empty target (optional, to resolve dependencies)
         .target(
             name: "DependencyAggregator",
-            dependencies: []
+            dependencies: [
+                .product(name: "AEPAssurance", package: "aepsdk-assurance-ios"),
+                .product(name: "AEPCore", package: "aepsdk-core-ios"),
+            ],
         )
     ]
 )
