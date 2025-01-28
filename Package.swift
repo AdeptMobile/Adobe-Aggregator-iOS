@@ -10,11 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "Adode_AEP_SDK", 
-            dependencies: [
-                "aepsdk-core-ios"
-                //.target(name: "AEP_SDK", dependencies["aepsdk-core-ios"], path: "Sources/mylib")
-                //.product(name: "AEPCore", package: "aepsdk-core-ios"),
-            ], 
+            dependencies: [.product(name: "AEPCore", package: "aepsdk-core-ios")], 
             path: "Sources/mylib"
         ),
     ]
