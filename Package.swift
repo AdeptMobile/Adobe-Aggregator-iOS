@@ -17,8 +17,8 @@ let package = Package(
             name: "DependencyAggregator",
             dependencies: [
                 .product(name: "AEPAssurance", package: "aepsdk-assurance-ios"),
-                .product(name: "AEPCore", package: "aepsdk-core-ios"),
-            ],
+                .product(name: "AEPCore", package: "aepsdk-core-ios")
+            ]
         )
     ]
 )
