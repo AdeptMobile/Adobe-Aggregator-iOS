@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/adobe/aepsdk-assurance-ios.git", exact: "5.0.1"),
-        .package(url: "https://github.com/adobe/aepsdk-core-ios.git", exact: "5.3.2")
+        .package(url: "https://github.com/adobe/aepsdk-core-ios.git", exact: "5.3.2"),
         .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", exact: "5.0.3"),
         .package(url: "https://github.com/adobe/aepsdk-edgeconsent-ios.git", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", exact: "5.0.0"),
