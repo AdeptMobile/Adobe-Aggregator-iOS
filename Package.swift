@@ -20,6 +20,7 @@ let package = Package(
         // Define your targets (modules).
         .target(
             name: "AEP_SDK",
+            path: "Source",
             dependencies: [
                 .product(name: "AEPCore", package: "aepsdk-core-ios"),
                 .product(name: "AEPAssurance", package: "aepsdk-assurance-ios")
