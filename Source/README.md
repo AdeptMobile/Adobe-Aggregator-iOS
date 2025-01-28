@@ -1,2 +1,0 @@
-# Adobe-iOS
-Adode MonoRepo
