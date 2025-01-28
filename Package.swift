@@ -6,6 +6,12 @@ let package = Package(
     platforms: [
         .iOS(.v13)
     ],
+    products: [
+        // Products define the executables and libraries a package produces, making them visible to other packages.
+        .library(
+            name: "DependencyAggregator",
+            targets: ["DependencyAggregator"]),
+    ],
     dependencies: [
         // Add your dependencies here
         .package(url: "https://github.com/adobe/aepsdk-assurance-ios.git", exact: "5.0.1"),
