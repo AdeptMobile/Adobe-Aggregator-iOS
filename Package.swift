@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "DependencyAggregator",
+    name: "Adobe-iOS",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "DependencyAggregator",
-            targets: ["DependencyAggregator"]),
+            name: "Adobe-iOS",
+            targets: ["Adobe-iOS"]),
     ],
     dependencies: [
         .package(url: "https://github.com/adobe/aepsdk-assurance-ios.git", exact: "5.0.1"),
@@ -24,7 +24,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "DependencyAggregator",
+            name: "Adobe-iOS",
             dependencies: [
                 .product(name: "AEPAssurance", package: "aepsdk-assurance-ios"),
                 .product(name: "AEPCore", package: "aepsdk-core-ios"),
