@@ -32,7 +32,6 @@ let package = Package(
                 .product(name: "AEPLifecycle", package: "aepsdk-core-ios"),  
                 .product(name: "AEPServices", package: "aepsdk-core-ios"),   
                 .product(name: "AEPSignal", package: "aepsdk-core-ios"),   
-                .product(name: "AEPUserProfile", package: "aepsdk-core-ios")
                 .product(name: "AEPEdge", package: "aepsdk-edge-ios"),
                 .product(name: "AEPEdgeConsent", package: "aepsdk-edgeconsent-ios"),
                 .product(name: "AEPEdgeIdentity", package: "aepsdk-edgeidentity-ios"),
