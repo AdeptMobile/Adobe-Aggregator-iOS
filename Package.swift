@@ -27,7 +27,12 @@ let package = Package(
             name: "Adobe-Aggregator-iOS",
             dependencies: [
                 .product(name: "AEPAssurance", package: "aepsdk-assurance-ios"),
-                .product(name: "AEPCore", package: "aepsdk-core-ios"),
+                .product(name: "AEPCore", package: "aepsdk-core-ios"),    
+                .product(name: "AEPIdentity", package: "aepsdk-core-ios"),  
+                .product(name: "AEPLifecycle", package: "aepsdk-core-ios"),  
+                .product(name: "AEPServices", package: "aepsdk-core-ios"),   
+                .product(name: "AEPSignal", package: "aepsdk-core-ios"),   
+                .product(name: "AEPUserProfile", package: "aepsdk-core-ios")
                 .product(name: "AEPEdge", package: "aepsdk-edge-ios"),
                 .product(name: "AEPEdgeConsent", package: "aepsdk-edgeconsent-ios"),
                 .product(name: "AEPEdgeIdentity", package: "aepsdk-edgeidentity-ios"),
