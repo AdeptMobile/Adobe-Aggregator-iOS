@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Adobe-Adobe-Aggregator-iOS",
+    name: "Adobe-Aggregator-iOS",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "Adobe-Adobe-Aggregator-iOS",
+            name: "Adobe-Aggregator-iOS",
             targets: ["Adobe-Adobe-Aggregator-iOS"]),
     ],
     dependencies: [
@@ -24,7 +24,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Adobe-Adobe-Aggregator-iOS",
+            name: "Adobe-Aggregator-iOS",
             dependencies: [
                 .product(name: "AEPAssurance", package: "aepsdk-assurance-ios"),
                 .product(name: "AEPCore", package: "aepsdk-core-ios"),
