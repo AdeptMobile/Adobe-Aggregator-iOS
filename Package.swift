@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "Adobe-Aggregator-iOS",
-            targets: ["Adobe-Adobe-Aggregator-iOS"]),
+            targets: ["Adobe-Aggregator-iOS"]),
     ],
     dependencies: [
         .package(url: "https://github.com/adobe/aepsdk-assurance-ios.git", exact: "5.0.1"),
