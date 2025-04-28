@@ -21,6 +21,7 @@ let package = Package(
         .package(url: "https://github.com/adobe/aepsdk-optimize-ios", exact: "5.2.0"),
         .package(url: "https://github.com/adobe/aepsdk-places-ios", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-userprofile-ios.git", exact: "5.0.0"),
+        .package(url: "https://github.com/adobe/aepsdk-media-ios.git", exact: "5.0.1"),
         .package(url: "https://github.com/adobe/aepsdk-analytics-ios.git", exact: "5.0.2")
         
     ],
@@ -41,6 +42,7 @@ let package = Package(
                 .product(name: "AEPOptimize", package: "aepsdk-optimize-ios"),
                 .product(name: "AEPPlaces", package: "aepsdk-places-ios"),
                 .product(name: "AEPUserProfile", package: "aepsdk-userprofile-ios"),
+                .product(name: "AEPAnalytics", package: "aepsdk-media-ios"),
                 .product(name: "AEPAnalytics", package: "aepsdk-analytics-ios")
             ]
         )
