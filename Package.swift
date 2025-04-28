@@ -42,7 +42,7 @@ let package = Package(
                 .product(name: "AEPOptimize", package: "aepsdk-optimize-ios"),
                 .product(name: "AEPPlaces", package: "aepsdk-places-ios"),
                 .product(name: "AEPUserProfile", package: "aepsdk-userprofile-ios"),
-                .product(name: "AEPAnalytics", package: "aepsdk-media-ios"),
+                .product(name: "AEPMedia", package: "aepsdk-media-ios"),
                 .product(name: "AEPAnalytics", package: "aepsdk-analytics-ios")
             ]
         )
