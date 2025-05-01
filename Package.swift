@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/adobe/aepsdk-edgeconsent-ios.git", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-messaging-ios.git", exact: "5.6.0"),
-        .package(url: "https://github.com/adobe/aepsdk-optimize-ios", exact: "5.2.0"),
+        .package(url: "https://github.com/adobe/aepsdk-optimize-ios", exact: "5.4.0"),
         .package(url: "https://github.com/adobe/aepsdk-places-ios", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-userprofile-ios.git", exact: "5.0.0"),
         .package(url: "https://github.com/adobe/aepsdk-media-ios.git", exact: "5.0.1"),
